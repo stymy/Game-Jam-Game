@@ -1,0 +1,507 @@
+//Maya ASCII 2018 scene
+//Name: ATOM Animation export.editMA
+//Last modified: Thu, Aug 30, 2018 11:34:54 AM
+//Codeset: 1252
+requires maya "2018";
+currentUnit -l centimeter -a degree -t film;
+fileInfo "fileCreationSource" "ExportEdits";
+createNode parentConstraint -n "joint9_parentConstraint1";
+	rename -uid "201ACF9F-4455-F06A-A364-BDA098969817";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "nurbsCircle8W0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 1.8212599428579779e-08 -2.5201932274399041e-07 
+		3.3603321014652465e-07 ;
+	setAttr ".tg[0].tor" -type "double3" 89.999999999996589 89.359850330475453 89.999999999996589 ;
+	setAttr ".lr" -type "double3" 1.4077494457795725e-14 -3.097623948084208e-14 87.526513919897369 ;
+	setAttr ".rst" -type "double3" 6.9988766614074303 7.1054273576010019e-15 -0.42799408053882637 ;
+	setAttr ".rsrr" -type "double3" -4.8880808879943868e-15 6.3870847625071912e-15 -9.4422717105948153e-15 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "joint8_parentConstraint1";
+	rename -uid "80C17216-4DF1-9E68-815F-9C8BF34B4B06";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "nurbsCircle7W0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 2.6314140200156544e-08 -5.2275786188715756e-07 
+		-4.0255955013890343e-08 ;
+	setAttr ".tg[0].tor" -type "double3" 89.999999999997769 89.039825433333647 89.99999999999774 ;
+	setAttr ".lr" -type "double3" 4.0167486921287292 4.5482308786019283 10.49238555415667 ;
+	setAttr ".rst" -type "double3" 7.6712460040395181 -3.5527136788005009e-15 0.94175198325383747 ;
+	setAttr ".rsrr" -type "double3" 4.3086454717661435e-14 -1.9472123953000321e-15 -7.3215234532769887e-31 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "joint6_parentConstraint1";
+	rename -uid "C5C5BFD0-4672-80FD-59DC-CDB7BF5A5A4C";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "nurbsCircle2W0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -9.3795489153336575e-09 9.5844665537470064e-09 
+		-2.7496930954384879e-08 ;
+	setAttr ".tg[0].tor" -type "double3" -89.999999999999986 73.495638618244939 -90 ;
+	setAttr ".lr" -type "double3" -11.308703097397846 -3.3252751901393225 0.32932264421282503 ;
+	setAttr ".rst" -type "double3" 6.7942444973283411 -0.35674752533049903 -0.45079333528058041 ;
+	setAttr ".rsrr" -type "double3" 9.333416590751248e-15 2.1361022879572069e-15 -6.3611093629270335e-15 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "joint5_parentConstraint1";
+	rename -uid "233DAA45-4DF4-23F8-E2D6-B89F0DB1B1E5";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "nurbsCircle5W0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 2.1612391902491175e-35 -1.0859225518800031e-08 
+		-2.8470058310858803e-08 ;
+	setAttr ".tg[0].tor" -type "double3" -90 2.5448043798129514 -90 ;
+	setAttr ".lr" -type "double3" 5.0732438624183702 63.315922403810575 3.1294265922834761 ;
+	setAttr ".rst" -type "double3" -2.9247018045291795e-21 9.2826919704450219 8.8817841970012523e-16 ;
+	setAttr ".rsrr" -type "double3" 1.2722218725854064e-14 0 0 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "joint4_parentConstraint1";
+	rename -uid "0E08766E-4A07-B40D-26D8-6F980C611739";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "nurbsCircle6W0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 0 1.1884591032990066 -2.7219549349851202 ;
+	setAttr ".tg[0].tor" -type "double3" -179.90347909268777 6.2120208622334296e-18 
+		0 ;
+	setAttr ".lr" -type "double3" 6.2120208622334312e-18 0 0 ;
+	setAttr ".rst" -type "double3" 1.1884591972387 2.6389095292038699e-16 -2.7219549356112176 ;
+	setAttr ".rsrr" -type "double3" 6.2120208622334312e-18 0 0 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "joint9_parentConstraint2";
+	rename -uid "2BE48ECA-479B-02E2-34B8-289C16904506";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "nurbsCircle10W0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 1.8212607866274766e-08 -3.3254926989911837e-07 
+		-2.5829238126107157e-07 ;
+	setAttr ".tg[0].tor" -type "double3" 89.999999998836458 -89.995301538308098 -89.999999998836444 ;
+	setAttr ".lr" -type "double3" 97.758908377039589 140.48526147664217 94.95952285457976 ;
+	setAttr ".rst" -type "double3" 6.9988766614074391 7.1054273576010019e-15 0.42799408053882793 ;
+	setAttr ".rsrr" -type "double3" 1.8511888214533395e-14 2.2006577168671556e-18 4.6714396883995386e-15 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "joint8_parentConstraint2";
+	rename -uid "E0902A0D-44B6-4D4C-4741-5C9F251D8C93";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "nurbsCircle9W0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 2.6314141865491081e-08 5.5818849986621899e-07 
+		-2.1397681759793841e-07 ;
+	setAttr ".tg[0].tor" -type "double3" -89.999999999989868 -89.68467356455011 89.999999999989527 ;
+	setAttr ".lr" -type "double3" -58.502260872944532 -33.787533060937491 2.2436134846711244 ;
+	setAttr ".rst" -type "double3" -0.94175198325383791 7.6712460040395172 7.1054273576010019e-15 ;
+	setAttr ".rsrr" -type "double3" -2.6716659324293532e-13 -6.361109362927032e-15 1.4830725161448525e-29 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "joint6_parentConstraint2";
+	rename -uid "DEB8B6A5-44CF-04D6-B991-10992C988759";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "nurbsCircle3W0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" -9.3795474165325743e-09 9.5844683301038458e-09 
+		-3.1490983154469632e-08 ;
+	setAttr ".tg[0].tor" -type "double3" -89.999999999999986 73.495638618244939 -90 ;
+	setAttr ".lr" -type "double3" 9.333416590751248e-15 2.1361022879572069e-15 -6.3611093629270335e-15 ;
+	setAttr ".rst" -type "double3" 6.7942444973283411 -0.35674752533049814 -0.45079333528058046 ;
+	setAttr ".rsrr" -type "double3" 9.333416590751248e-15 2.1361022879572069e-15 -6.3611093629270335e-15 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "joint5_parentConstraint2";
+	rename -uid "7D9B0BB5-4BBE-3965-48A1-0C822B3B25B1";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "nurbsCircle4W0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 1.0990202372134127e-35 -1.0859221966086352e-08 
+		-3.2464110066854346e-08 ;
+	setAttr ".tg[0].tor" -type "double3" -90.000000000000014 2.5448043798129452 -89.999999999999986 ;
+	setAttr ".lr" -type "double3" -3.4345111236182477 -53.428915806387806 1.7288517245228794 ;
+	setAttr ".rst" -type "double3" -2.9247018045291795e-21 9.2826919704450201 1.3322676295501878e-15 ;
+	setAttr ".rsrr" -type "double3" -3.1805546814635168e-15 -6.3611093629270335e-15 
+		3.1805546814635168e-15 ;
+	setAttr -k on ".w0";
+createNode parentConstraint -n "joint13_parentConstraint1";
+	rename -uid "40315C47-4D8D-4C7B-AA04-9797F6CAC08D";
+	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "nurbsCircle6W0" -dv 1 -min 0 -at "double";
+	setAttr -k on ".nds";
+	setAttr -k off ".v";
+	setAttr -k off ".tx";
+	setAttr -k off ".ty";
+	setAttr -k off ".tz";
+	setAttr -k off ".rx";
+	setAttr -k off ".ry";
+	setAttr -k off ".rz";
+	setAttr -k off ".sx";
+	setAttr -k off ".sy";
+	setAttr -k off ".sz";
+	setAttr ".erp" yes;
+	setAttr ".tg[0].tot" -type "double3" 0 1.1884591032990066 2.9125872878122103 ;
+	setAttr ".tg[0].tor" -type "double3" -179.90347909268777 6.2120208622334296e-18 
+		0 ;
+	setAttr ".lr" -type "double3" 6.2120208622334312e-18 0 0 ;
+	setAttr ".rst" -type "double3" 1.1884591972387 2.6389095292038699e-16 2.9125872871861129 ;
+	setAttr ".rsrr" -type "double3" 6.2120208622334312e-18 0 0 ;
+	setAttr -k on ".w0";
+connectAttr "joint9_parentConstraint1.ctx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8|<main>:joint9.tx"
+		;
+connectAttr "joint9_parentConstraint1.cty" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8|<main>:joint9.ty"
+		;
+connectAttr "joint9_parentConstraint1.ctz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8|<main>:joint9.tz"
+		;
+connectAttr "joint9_parentConstraint1.crx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8|<main>:joint9.rx"
+		;
+connectAttr "joint9_parentConstraint1.cry" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8|<main>:joint9.ry"
+		;
+connectAttr "joint9_parentConstraint1.crz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8|<main>:joint9.rz"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8|<main>:joint9.ro" "joint9_parentConstraint1.cro"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8|<main>:joint9.pim" "joint9_parentConstraint1.cpim"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8|<main>:joint9.rp" "joint9_parentConstraint1.crp"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8|<main>:joint9.rpt" "joint9_parentConstraint1.crt"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8|<main>:joint9.jo" "joint9_parentConstraint1.cjo"
+		;
+connectAttr "<main>:nurbsCircle8.t" "joint9_parentConstraint1.tg[0].tt";
+connectAttr "<main>:nurbsCircle8.rp" "joint9_parentConstraint1.tg[0].trp";
+connectAttr "<main>:nurbsCircle8.rpt" "joint9_parentConstraint1.tg[0].trt";
+connectAttr "<main>:nurbsCircle8.r" "joint9_parentConstraint1.tg[0].tr";
+connectAttr "<main>:nurbsCircle8.ro" "joint9_parentConstraint1.tg[0].tro";
+connectAttr "<main>:nurbsCircle8.s" "joint9_parentConstraint1.tg[0].ts";
+connectAttr "<main>:nurbsCircle8.pm" "joint9_parentConstraint1.tg[0].tpm";
+connectAttr "joint9_parentConstraint1.w0" "joint9_parentConstraint1.tg[0].tw";
+connectAttr "joint8_parentConstraint1.ctx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8.tx"
+		;
+connectAttr "joint8_parentConstraint1.cty" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8.ty"
+		;
+connectAttr "joint8_parentConstraint1.ctz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8.tz"
+		;
+connectAttr "joint8_parentConstraint1.crx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8.rx"
+		;
+connectAttr "joint8_parentConstraint1.cry" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8.ry"
+		;
+connectAttr "joint8_parentConstraint1.crz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8.rz"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8.ro" "joint8_parentConstraint1.cro"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8.pim" "joint8_parentConstraint1.cpim"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8.rp" "joint8_parentConstraint1.crp"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8.rpt" "joint8_parentConstraint1.crt"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint2|<main>:joint8.jo" "joint8_parentConstraint1.cjo"
+		;
+connectAttr "<main>:nurbsCircle7.t" "joint8_parentConstraint1.tg[0].tt";
+connectAttr "<main>:nurbsCircle7.rp" "joint8_parentConstraint1.tg[0].trp";
+connectAttr "<main>:nurbsCircle7.rpt" "joint8_parentConstraint1.tg[0].trt";
+connectAttr "<main>:nurbsCircle7.r" "joint8_parentConstraint1.tg[0].tr";
+connectAttr "<main>:nurbsCircle7.ro" "joint8_parentConstraint1.tg[0].tro";
+connectAttr "<main>:nurbsCircle7.s" "joint8_parentConstraint1.tg[0].ts";
+connectAttr "<main>:nurbsCircle7.pm" "joint8_parentConstraint1.tg[0].tpm";
+connectAttr "joint8_parentConstraint1.w0" "joint8_parentConstraint1.tg[0].tw";
+connectAttr "joint6_parentConstraint1.ctx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5|<main>:joint6.tx"
+		;
+connectAttr "joint6_parentConstraint1.cty" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5|<main>:joint6.ty"
+		;
+connectAttr "joint6_parentConstraint1.ctz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5|<main>:joint6.tz"
+		;
+connectAttr "joint6_parentConstraint1.crx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5|<main>:joint6.rx"
+		;
+connectAttr "joint6_parentConstraint1.cry" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5|<main>:joint6.ry"
+		;
+connectAttr "joint6_parentConstraint1.crz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5|<main>:joint6.rz"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5|<main>:joint6.ro" "joint6_parentConstraint1.cro"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5|<main>:joint6.pim" "joint6_parentConstraint1.cpim"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5|<main>:joint6.rp" "joint6_parentConstraint1.crp"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5|<main>:joint6.rpt" "joint6_parentConstraint1.crt"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5|<main>:joint6.jo" "joint6_parentConstraint1.cjo"
+		;
+connectAttr "<main>:nurbsCircle2.t" "joint6_parentConstraint1.tg[0].tt";
+connectAttr "<main>:nurbsCircle2.rp" "joint6_parentConstraint1.tg[0].trp";
+connectAttr "<main>:nurbsCircle2.rpt" "joint6_parentConstraint1.tg[0].trt";
+connectAttr "<main>:nurbsCircle2.r" "joint6_parentConstraint1.tg[0].tr";
+connectAttr "<main>:nurbsCircle2.ro" "joint6_parentConstraint1.tg[0].tro";
+connectAttr "<main>:nurbsCircle2.s" "joint6_parentConstraint1.tg[0].ts";
+connectAttr "<main>:nurbsCircle2.pm" "joint6_parentConstraint1.tg[0].tpm";
+connectAttr "joint6_parentConstraint1.w0" "joint6_parentConstraint1.tg[0].tw";
+connectAttr "joint5_parentConstraint1.ctx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5.tx"
+		;
+connectAttr "joint5_parentConstraint1.cty" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5.ty"
+		;
+connectAttr "joint5_parentConstraint1.ctz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5.tz"
+		;
+connectAttr "joint5_parentConstraint1.crx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5.rx"
+		;
+connectAttr "joint5_parentConstraint1.cry" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5.ry"
+		;
+connectAttr "joint5_parentConstraint1.crz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5.rz"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5.ro" "joint5_parentConstraint1.cro"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5.pim" "joint5_parentConstraint1.cpim"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5.rp" "joint5_parentConstraint1.crp"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5.rpt" "joint5_parentConstraint1.crt"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint4|<main>:joint5.jo" "joint5_parentConstraint1.cjo"
+		;
+connectAttr "<main>:nurbsCircle5.t" "joint5_parentConstraint1.tg[0].tt";
+connectAttr "<main>:nurbsCircle5.rp" "joint5_parentConstraint1.tg[0].trp";
+connectAttr "<main>:nurbsCircle5.rpt" "joint5_parentConstraint1.tg[0].trt";
+connectAttr "<main>:nurbsCircle5.r" "joint5_parentConstraint1.tg[0].tr";
+connectAttr "<main>:nurbsCircle5.ro" "joint5_parentConstraint1.tg[0].tro";
+connectAttr "<main>:nurbsCircle5.s" "joint5_parentConstraint1.tg[0].ts";
+connectAttr "<main>:nurbsCircle5.pm" "joint5_parentConstraint1.tg[0].tpm";
+connectAttr "joint5_parentConstraint1.w0" "joint5_parentConstraint1.tg[0].tw";
+connectAttr "joint4_parentConstraint1.ctx" "<main>:joint4.tx";
+connectAttr "joint4_parentConstraint1.cty" "<main>:joint4.ty";
+connectAttr "joint4_parentConstraint1.ctz" "<main>:joint4.tz";
+connectAttr "joint4_parentConstraint1.crx" "<main>:joint4.rx";
+connectAttr "joint4_parentConstraint1.cry" "<main>:joint4.ry";
+connectAttr "joint4_parentConstraint1.crz" "<main>:joint4.rz";
+connectAttr "<main>:joint4.ro" "joint4_parentConstraint1.cro";
+connectAttr "<main>:joint4.pim" "joint4_parentConstraint1.cpim";
+connectAttr "<main>:joint4.rp" "joint4_parentConstraint1.crp";
+connectAttr "<main>:joint4.rpt" "joint4_parentConstraint1.crt";
+connectAttr "<main>:joint4.jo" "joint4_parentConstraint1.cjo";
+connectAttr "<main>:nurbsCircle6.t" "joint4_parentConstraint1.tg[0].tt";
+connectAttr "<main>:nurbsCircle6.rp" "joint4_parentConstraint1.tg[0].trp";
+connectAttr "<main>:nurbsCircle6.rpt" "joint4_parentConstraint1.tg[0].trt";
+connectAttr "<main>:nurbsCircle6.r" "joint4_parentConstraint1.tg[0].tr";
+connectAttr "<main>:nurbsCircle6.ro" "joint4_parentConstraint1.tg[0].tro";
+connectAttr "<main>:nurbsCircle6.s" "joint4_parentConstraint1.tg[0].ts";
+connectAttr "<main>:nurbsCircle6.pm" "joint4_parentConstraint1.tg[0].tpm";
+connectAttr "joint4_parentConstraint1.w0" "joint4_parentConstraint1.tg[0].tw";
+connectAttr "joint9_parentConstraint2.ctx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8|<main>:joint9.tx"
+		;
+connectAttr "joint9_parentConstraint2.cty" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8|<main>:joint9.ty"
+		;
+connectAttr "joint9_parentConstraint2.ctz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8|<main>:joint9.tz"
+		;
+connectAttr "joint9_parentConstraint2.crx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8|<main>:joint9.rx"
+		;
+connectAttr "joint9_parentConstraint2.cry" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8|<main>:joint9.ry"
+		;
+connectAttr "joint9_parentConstraint2.crz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8|<main>:joint9.rz"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8|<main>:joint9.ro" "joint9_parentConstraint2.cro"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8|<main>:joint9.pim" "joint9_parentConstraint2.cpim"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8|<main>:joint9.rp" "joint9_parentConstraint2.crp"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8|<main>:joint9.rpt" "joint9_parentConstraint2.crt"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8|<main>:joint9.jo" "joint9_parentConstraint2.cjo"
+		;
+connectAttr "<main>:nurbsCircle10.t" "joint9_parentConstraint2.tg[0].tt";
+connectAttr "<main>:nurbsCircle10.rp" "joint9_parentConstraint2.tg[0].trp";
+connectAttr "<main>:nurbsCircle10.rpt" "joint9_parentConstraint2.tg[0].trt";
+connectAttr "<main>:nurbsCircle10.r" "joint9_parentConstraint2.tg[0].tr";
+connectAttr "<main>:nurbsCircle10.ro" "joint9_parentConstraint2.tg[0].tro";
+connectAttr "<main>:nurbsCircle10.s" "joint9_parentConstraint2.tg[0].ts";
+connectAttr "<main>:nurbsCircle10.pm" "joint9_parentConstraint2.tg[0].tpm";
+connectAttr "joint9_parentConstraint2.w0" "joint9_parentConstraint2.tg[0].tw";
+connectAttr "joint8_parentConstraint2.ctx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8.tx"
+		;
+connectAttr "joint8_parentConstraint2.cty" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8.ty"
+		;
+connectAttr "joint8_parentConstraint2.ctz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8.tz"
+		;
+connectAttr "joint8_parentConstraint2.crx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8.rx"
+		;
+connectAttr "joint8_parentConstraint2.cry" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8.ry"
+		;
+connectAttr "joint8_parentConstraint2.crz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8.rz"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8.ro" "joint8_parentConstraint2.cro"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8.pim" "joint8_parentConstraint2.cpim"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8.rp" "joint8_parentConstraint2.crp"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8.rpt" "joint8_parentConstraint2.crt"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint12|<main>:joint8.jo" "joint8_parentConstraint2.cjo"
+		;
+connectAttr "<main>:nurbsCircle9.t" "joint8_parentConstraint2.tg[0].tt";
+connectAttr "<main>:nurbsCircle9.rp" "joint8_parentConstraint2.tg[0].trp";
+connectAttr "<main>:nurbsCircle9.rpt" "joint8_parentConstraint2.tg[0].trt";
+connectAttr "<main>:nurbsCircle9.r" "joint8_parentConstraint2.tg[0].tr";
+connectAttr "<main>:nurbsCircle9.ro" "joint8_parentConstraint2.tg[0].tro";
+connectAttr "<main>:nurbsCircle9.s" "joint8_parentConstraint2.tg[0].ts";
+connectAttr "<main>:nurbsCircle9.pm" "joint8_parentConstraint2.tg[0].tpm";
+connectAttr "joint8_parentConstraint2.w0" "joint8_parentConstraint2.tg[0].tw";
+connectAttr "joint6_parentConstraint2.ctx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5|<main>:joint6.tx"
+		;
+connectAttr "joint6_parentConstraint2.cty" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5|<main>:joint6.ty"
+		;
+connectAttr "joint6_parentConstraint2.ctz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5|<main>:joint6.tz"
+		;
+connectAttr "joint6_parentConstraint2.crx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5|<main>:joint6.rx"
+		;
+connectAttr "joint6_parentConstraint2.cry" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5|<main>:joint6.ry"
+		;
+connectAttr "joint6_parentConstraint2.crz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5|<main>:joint6.rz"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5|<main>:joint6.ro" "joint6_parentConstraint2.cro"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5|<main>:joint6.pim" "joint6_parentConstraint2.cpim"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5|<main>:joint6.rp" "joint6_parentConstraint2.crp"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5|<main>:joint6.rpt" "joint6_parentConstraint2.crt"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5|<main>:joint6.jo" "joint6_parentConstraint2.cjo"
+		;
+connectAttr "<main>:nurbsCircle3.t" "joint6_parentConstraint2.tg[0].tt";
+connectAttr "<main>:nurbsCircle3.rp" "joint6_parentConstraint2.tg[0].trp";
+connectAttr "<main>:nurbsCircle3.rpt" "joint6_parentConstraint2.tg[0].trt";
+connectAttr "<main>:nurbsCircle3.r" "joint6_parentConstraint2.tg[0].tr";
+connectAttr "<main>:nurbsCircle3.ro" "joint6_parentConstraint2.tg[0].tro";
+connectAttr "<main>:nurbsCircle3.s" "joint6_parentConstraint2.tg[0].ts";
+connectAttr "<main>:nurbsCircle3.pm" "joint6_parentConstraint2.tg[0].tpm";
+connectAttr "joint6_parentConstraint2.w0" "joint6_parentConstraint2.tg[0].tw";
+connectAttr "joint5_parentConstraint2.ctx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5.tx"
+		;
+connectAttr "joint5_parentConstraint2.cty" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5.ty"
+		;
+connectAttr "joint5_parentConstraint2.ctz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5.tz"
+		;
+connectAttr "joint5_parentConstraint2.crx" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5.rx"
+		;
+connectAttr "joint5_parentConstraint2.cry" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5.ry"
+		;
+connectAttr "joint5_parentConstraint2.crz" "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5.rz"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5.ro" "joint5_parentConstraint2.cro"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5.pim" "joint5_parentConstraint2.cpim"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5.rp" "joint5_parentConstraint2.crp"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5.rpt" "joint5_parentConstraint2.crt"
+		;
+connectAttr "|<main>:nurbsCircle11|<main>:joint1|<main>:joint13|<main>:joint5.jo" "joint5_parentConstraint2.cjo"
+		;
+connectAttr "<main>:nurbsCircle4.t" "joint5_parentConstraint2.tg[0].tt";
+connectAttr "<main>:nurbsCircle4.rp" "joint5_parentConstraint2.tg[0].trp";
+connectAttr "<main>:nurbsCircle4.rpt" "joint5_parentConstraint2.tg[0].trt";
+connectAttr "<main>:nurbsCircle4.r" "joint5_parentConstraint2.tg[0].tr";
+connectAttr "<main>:nurbsCircle4.ro" "joint5_parentConstraint2.tg[0].tro";
+connectAttr "<main>:nurbsCircle4.s" "joint5_parentConstraint2.tg[0].ts";
+connectAttr "<main>:nurbsCircle4.pm" "joint5_parentConstraint2.tg[0].tpm";
+connectAttr "joint5_parentConstraint2.w0" "joint5_parentConstraint2.tg[0].tw";
+connectAttr "joint13_parentConstraint1.ctx" "<main>:joint13.tx";
+connectAttr "joint13_parentConstraint1.cty" "<main>:joint13.ty";
+connectAttr "joint13_parentConstraint1.ctz" "<main>:joint13.tz";
+connectAttr "joint13_parentConstraint1.crx" "<main>:joint13.rx";
+connectAttr "joint13_parentConstraint1.cry" "<main>:joint13.ry";
+connectAttr "joint13_parentConstraint1.crz" "<main>:joint13.rz";
+connectAttr "<main>:joint13.ro" "joint13_parentConstraint1.cro";
+connectAttr "<main>:joint13.pim" "joint13_parentConstraint1.cpim";
+connectAttr "<main>:joint13.rp" "joint13_parentConstraint1.crp";
+connectAttr "<main>:joint13.rpt" "joint13_parentConstraint1.crt";
+connectAttr "<main>:joint13.jo" "joint13_parentConstraint1.cjo";
+connectAttr "<main>:nurbsCircle6.t" "joint13_parentConstraint1.tg[0].tt";
+connectAttr "<main>:nurbsCircle6.rp" "joint13_parentConstraint1.tg[0].trp";
+connectAttr "<main>:nurbsCircle6.rpt" "joint13_parentConstraint1.tg[0].trt";
+connectAttr "<main>:nurbsCircle6.r" "joint13_parentConstraint1.tg[0].tr";
+connectAttr "<main>:nurbsCircle6.ro" "joint13_parentConstraint1.tg[0].tro";
+connectAttr "<main>:nurbsCircle6.s" "joint13_parentConstraint1.tg[0].ts";
+connectAttr "<main>:nurbsCircle6.pm" "joint13_parentConstraint1.tg[0].tpm";
+connectAttr "joint13_parentConstraint1.w0" "joint13_parentConstraint1.tg[0].tw";
+// End of ATOM Animation export.editMA

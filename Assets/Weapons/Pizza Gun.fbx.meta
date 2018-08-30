@@ -44,8 +44,13 @@ ModelImporter:
     2100000: lambert7
     2100002: lambert9
     2100004: lambert8
+    2100006: lambert22
+    2100008: lambert23
+    2100010: lambert24
     2300000: polySurface441
+    2300002: //RootNode
     3300000: polySurface441
+    3300002: //RootNode
     4300000: polySurface441
   externalObjects: {}
   materials:

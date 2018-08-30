@@ -1,74 +1,9 @@
 fileFormatVersion: 2
-guid: 512289d8ca899554db905044536a92cb
+guid: d31c8b6fa2d8bc04e9da655411fdf535
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: pDisc1
-    100002: pDisc2
-    100004: pDisc3
-    100006: pDisc4
-    100008: pDisc5
-    100010: pDisc6
-    100012: pDisc7
-    100014: //RootNode
-    100016: pSphere48
-    100018: pDisc8
-    100020: transform944
-    100022: transform945
-    100024: transform946
-    100026: transform947
-    100028: transform948
-    100030: transform949
-    100032: transform950
-    100034: transform951
-    400000: pDisc1
-    400002: pDisc2
-    400004: pDisc3
-    400006: pDisc4
-    400008: pDisc5
-    400010: pDisc6
-    400012: pDisc7
-    400014: //RootNode
-    400016: pSphere48
-    400018: pDisc8
-    400020: transform944
-    400022: transform945
-    400024: transform946
-    400026: transform947
-    400028: transform948
-    400030: transform949
-    400032: transform950
-    400034: transform951
-    2100000: lambert4
-    2100002: lambert6
-    2100004: lambert5
-    2300000: pDisc1
-    2300002: pDisc2
-    2300004: pDisc3
-    2300006: pDisc4
-    2300008: pDisc5
-    2300010: pDisc6
-    2300012: pDisc7
-    2300014: pSphere48
-    2300016: pDisc8
-    3300000: pDisc1
-    3300002: pDisc2
-    3300004: pDisc3
-    3300006: pDisc4
-    3300008: pDisc5
-    3300010: pDisc6
-    3300012: pDisc7
-    3300014: pSphere48
-    3300016: pDisc8
-    4300000: pSphere48
-    4300002: pDisc1
-    4300004: pDisc2
-    4300006: pDisc3
-    4300008: pDisc4
-    4300010: pDisc5
-    4300012: pDisc6
-    4300014: pDisc7
-    4300016: pDisc8
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -146,7 +81,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -181,6 +181,7 @@ ModelImporter:
     400174: transform500
     2100000: blinn1
     2100002: blinn3
+    2100004: lambert18
     2300000: polySurface463
     3300000: polySurface463
     4300000: polySurface463

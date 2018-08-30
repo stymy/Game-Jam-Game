@@ -1,74 +1,76 @@
 fileFormatVersion: 2
-guid: 512289d8ca899554db905044536a92cb
+guid: a1fdd217c873eb246b6685c3452ba1ce
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: pDisc1
-    100002: pDisc2
-    100004: pDisc3
-    100006: pDisc4
-    100008: pDisc5
-    100010: pDisc6
-    100012: pDisc7
-    100014: //RootNode
-    100016: pSphere48
-    100018: pDisc8
-    100020: transform944
-    100022: transform945
-    100024: transform946
-    100026: transform947
-    100028: transform948
-    100030: transform949
-    100032: transform950
-    100034: transform951
-    400000: pDisc1
-    400002: pDisc2
-    400004: pDisc3
-    400006: pDisc4
-    400008: pDisc5
-    400010: pDisc6
-    400012: pDisc7
-    400014: //RootNode
-    400016: pSphere48
-    400018: pDisc8
-    400020: transform944
-    400022: transform945
-    400024: transform946
-    400026: transform947
-    400028: transform948
-    400030: transform949
-    400032: transform950
-    400034: transform951
+    100000: //RootNode
+    100002: joint1
+    100004: joint10
+    100006: joint10 1
+    100008: joint11
+    100010: joint12
+    100012: joint13
+    100014: joint2
+    100016: joint4
+    100018: joint5
+    100020: joint5 1
+    100022: joint6
+    100024: joint6 1
+    100026: joint7
+    100028: joint7 1
+    100030: joint8
+    100032: joint8 1
+    100034: joint9
+    100036: joint9 1
+    100038: nurbsCircle10
+    100040: nurbsCircle11
+    100042: nurbsCircle2
+    100044: nurbsCircle3
+    100046: nurbsCircle4
+    100048: nurbsCircle5
+    100050: nurbsCircle6
+    100052: nurbsCircle7
+    100054: nurbsCircle8
+    100056: nurbsCircle9
+    100058: pCube7
+    400000: //RootNode
+    400002: joint1
+    400004: joint10
+    400006: joint10 1
+    400008: joint11
+    400010: joint12
+    400012: joint13
+    400014: joint2
+    400016: joint4
+    400018: joint5
+    400020: joint5 1
+    400022: joint6
+    400024: joint6 1
+    400026: joint7
+    400028: joint7 1
+    400030: joint8
+    400032: joint8 1
+    400034: joint9
+    400036: joint9 1
+    400038: nurbsCircle10
+    400040: nurbsCircle11
+    400042: nurbsCircle2
+    400044: nurbsCircle3
+    400046: nurbsCircle4
+    400048: nurbsCircle5
+    400050: nurbsCircle6
+    400052: nurbsCircle7
+    400054: nurbsCircle8
+    400056: nurbsCircle9
+    400058: pCube7
     2100000: lambert4
-    2100002: lambert6
-    2100004: lambert5
-    2300000: pDisc1
-    2300002: pDisc2
-    2300004: pDisc3
-    2300006: pDisc4
-    2300008: pDisc5
-    2300010: pDisc6
-    2300012: pDisc7
-    2300014: pSphere48
-    2300016: pDisc8
-    3300000: pDisc1
-    3300002: pDisc2
-    3300004: pDisc3
-    3300006: pDisc4
-    3300008: pDisc5
-    3300010: pDisc6
-    3300012: pDisc7
-    3300014: pSphere48
-    3300016: pDisc8
-    4300000: pSphere48
-    4300002: pDisc1
-    4300004: pDisc2
-    4300006: pDisc3
-    4300008: pDisc4
-    4300010: pDisc5
-    4300012: pDisc6
-    4300014: pDisc7
-    4300016: pDisc8
+    2100002: lambert5
+    2100004: eye
+    2100006: lambert3
+    4300000: pCube7
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: pCube7
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -120,8 +122,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -143,10 +145,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

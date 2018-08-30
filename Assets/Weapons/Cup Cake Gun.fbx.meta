@@ -126,6 +126,43 @@ ModelImporter:
     100240: transform490
     100242: transform491
     100244: transform500
+    100246: polySurface447 1
+    100248: transform895
+    100250: transform896
+    100252: transform897
+    100254: transform898
+    100256: transform899
+    100258: transform900
+    100260: transform901
+    100262: transform902
+    100264: transform903
+    100266: transform904
+    100268: transform905
+    100270: transform906
+    100272: transform907
+    100274: transform908
+    100276: transform909
+    100278: transform910
+    100280: transform911
+    100282: transform912
+    100284: transform913
+    100286: transform914
+    100288: transform915
+    100290: transform916
+    100292: transform917
+    100294: transform918
+    100296: transform919
+    100298: transform920
+    100300: transform921
+    100302: transform922
+    100304: transform923
+    100306: transform924
+    100308: transform925
+    100310: transform926
+    100312: transform927
+    100314: transform928
+    100316: transform929
+    100318: transform930
     400000: //RootNode
     400002: pCylinder3
     400004: pCylinder4
@@ -249,12 +286,53 @@ ModelImporter:
     400240: transform490
     400242: transform491
     400244: transform500
+    400246: polySurface447 1
+    400248: transform895
+    400250: transform896
+    400252: transform897
+    400254: transform898
+    400256: transform899
+    400258: transform900
+    400260: transform901
+    400262: transform902
+    400264: transform903
+    400266: transform904
+    400268: transform905
+    400270: transform906
+    400272: transform907
+    400274: transform908
+    400276: transform909
+    400278: transform910
+    400280: transform911
+    400282: transform912
+    400284: transform913
+    400286: transform914
+    400288: transform915
+    400290: transform916
+    400292: transform917
+    400294: transform918
+    400296: transform919
+    400298: transform920
+    400300: transform921
+    400302: transform922
+    400304: transform923
+    400306: transform924
+    400308: transform925
+    400310: transform926
+    400312: transform927
+    400314: transform928
+    400316: transform929
+    400318: transform930
     2100000: blinn1
     2100002: lambert1
     2100004: lambert12
     2100006: lambert11
     2100008: lambert10
     2100010: lambert3
+    2100012: lambert18
+    2100014: lambert20
+    2100016: lambert17
+    2100018: lambert16
     2300000: polySurface446
     2300002: polySurface447
     2300004: polySurface448

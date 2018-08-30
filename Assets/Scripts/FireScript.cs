@@ -7,6 +7,7 @@ public class FireScript : MonoBehaviour {
     [SerializeField] private GameObject Ammo;
     [SerializeField] private Transform BulletSpawn;
     [SerializeField] private Transform Player;
+    [SerializeField] private float speed = 0.01f;
 
     // Use this for initialization
     void Start () {
@@ -31,7 +32,7 @@ public class FireScript : MonoBehaviour {
         GameObject Bullet = Instantiate(Ammo, BulletSpawn);
         Bullet.SetActive(true);
 
-        Bullet.GetComponent<Rigidbody>().velocity = Player.transform.forward * 6;
+        Bullet.GetComponent<Rigidbody>().velocity = Player.transform.forward * speed;
         GetComponent<AudioSource>().Play();
 
         Destroy(Bullet, 10.0f);
