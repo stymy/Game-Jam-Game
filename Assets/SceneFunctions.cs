@@ -11,8 +11,8 @@ public class SceneFunctions : MonoBehaviour {
     public GameObject EventListener;
 	// Use this for initialization
 	void Start () {
-        SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("MainScene"));
-        SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("GGScene"));
+        //SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("MainScene"));
+        //SceneManager.UnloadSceneAsync(SceneManager.GetSceneByName("GGScene"));
 
     }
 	

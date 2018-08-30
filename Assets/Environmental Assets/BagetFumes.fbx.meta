@@ -1,14 +1,173 @@
 fileFormatVersion: 2
 guid: c9495b07e656541c4baa57c1bce6c957
-timeCreated: 1535592394
-licenseType: Free
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName: {}
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: gummy_dec:Group50144_MeshPart0
+    100004: gummy_dec:Group50144_MeshPart1
+    100006: gummy_dec:Group50144_MeshPart10
+    100008: gummy_dec:Group50144_MeshPart11
+    100010: gummy_dec:Group50144_MeshPart12
+    100012: gummy_dec:Group50144_MeshPart13
+    100014: gummy_dec:Group50144_MeshPart14
+    100016: gummy_dec:Group50144_MeshPart15
+    100018: gummy_dec:Group50144_MeshPart16
+    100020: gummy_dec:Group50144_MeshPart17
+    100022: gummy_dec:Group50144_MeshPart18
+    100024: gummy_dec:Group50144_MeshPart19
+    100026: gummy_dec:Group50144_MeshPart2
+    100028: gummy_dec:Group50144_MeshPart20
+    100030: gummy_dec:Group50144_MeshPart21
+    100032: gummy_dec:Group50144_MeshPart22
+    100034: gummy_dec:Group50144_MeshPart23
+    100036: gummy_dec:Group50144_MeshPart24
+    100038: gummy_dec:Group50144_MeshPart25
+    100040: gummy_dec:Group50144_MeshPart26
+    100042: gummy_dec:Group50144_MeshPart27
+    100044: gummy_dec:Group50144_MeshPart28
+    100046: gummy_dec:Group50144_MeshPart29
+    100048: gummy_dec:Group50144_MeshPart3
+    100050: gummy_dec:Group50144_MeshPart4
+    100052: gummy_dec:Group50144_MeshPart5
+    100054: gummy_dec:Group50144_MeshPart6
+    100056: gummy_dec:Group50144_MeshPart7
+    100058: gummy_dec:Group50144_MeshPart8
+    100060: gummy_dec:Group50144_MeshPart9
+    400000: //RootNode
+    400002: gummy_dec:Group50144_MeshPart0
+    400004: gummy_dec:Group50144_MeshPart1
+    400006: gummy_dec:Group50144_MeshPart10
+    400008: gummy_dec:Group50144_MeshPart11
+    400010: gummy_dec:Group50144_MeshPart12
+    400012: gummy_dec:Group50144_MeshPart13
+    400014: gummy_dec:Group50144_MeshPart14
+    400016: gummy_dec:Group50144_MeshPart15
+    400018: gummy_dec:Group50144_MeshPart16
+    400020: gummy_dec:Group50144_MeshPart17
+    400022: gummy_dec:Group50144_MeshPart18
+    400024: gummy_dec:Group50144_MeshPart19
+    400026: gummy_dec:Group50144_MeshPart2
+    400028: gummy_dec:Group50144_MeshPart20
+    400030: gummy_dec:Group50144_MeshPart21
+    400032: gummy_dec:Group50144_MeshPart22
+    400034: gummy_dec:Group50144_MeshPart23
+    400036: gummy_dec:Group50144_MeshPart24
+    400038: gummy_dec:Group50144_MeshPart25
+    400040: gummy_dec:Group50144_MeshPart26
+    400042: gummy_dec:Group50144_MeshPart27
+    400044: gummy_dec:Group50144_MeshPart28
+    400046: gummy_dec:Group50144_MeshPart29
+    400048: gummy_dec:Group50144_MeshPart3
+    400050: gummy_dec:Group50144_MeshPart4
+    400052: gummy_dec:Group50144_MeshPart5
+    400054: gummy_dec:Group50144_MeshPart6
+    400056: gummy_dec:Group50144_MeshPart7
+    400058: gummy_dec:Group50144_MeshPart8
+    400060: gummy_dec:Group50144_MeshPart9
+    2300000: gummy_dec:Group50144_MeshPart0
+    2300002: gummy_dec:Group50144_MeshPart1
+    2300004: gummy_dec:Group50144_MeshPart10
+    2300006: gummy_dec:Group50144_MeshPart11
+    2300008: gummy_dec:Group50144_MeshPart12
+    2300010: gummy_dec:Group50144_MeshPart13
+    2300012: gummy_dec:Group50144_MeshPart14
+    2300014: gummy_dec:Group50144_MeshPart15
+    2300016: gummy_dec:Group50144_MeshPart16
+    2300018: gummy_dec:Group50144_MeshPart17
+    2300020: gummy_dec:Group50144_MeshPart18
+    2300022: gummy_dec:Group50144_MeshPart19
+    2300024: gummy_dec:Group50144_MeshPart2
+    2300026: gummy_dec:Group50144_MeshPart20
+    2300028: gummy_dec:Group50144_MeshPart21
+    2300030: gummy_dec:Group50144_MeshPart22
+    2300032: gummy_dec:Group50144_MeshPart23
+    2300034: gummy_dec:Group50144_MeshPart24
+    2300036: gummy_dec:Group50144_MeshPart25
+    2300038: gummy_dec:Group50144_MeshPart26
+    2300040: gummy_dec:Group50144_MeshPart27
+    2300042: gummy_dec:Group50144_MeshPart28
+    2300044: gummy_dec:Group50144_MeshPart29
+    2300046: gummy_dec:Group50144_MeshPart3
+    2300048: gummy_dec:Group50144_MeshPart4
+    2300050: gummy_dec:Group50144_MeshPart5
+    2300052: gummy_dec:Group50144_MeshPart6
+    2300054: gummy_dec:Group50144_MeshPart7
+    2300056: gummy_dec:Group50144_MeshPart8
+    2300058: gummy_dec:Group50144_MeshPart9
+    3300000: gummy_dec:Group50144_MeshPart0
+    3300002: gummy_dec:Group50144_MeshPart1
+    3300004: gummy_dec:Group50144_MeshPart10
+    3300006: gummy_dec:Group50144_MeshPart11
+    3300008: gummy_dec:Group50144_MeshPart12
+    3300010: gummy_dec:Group50144_MeshPart13
+    3300012: gummy_dec:Group50144_MeshPart14
+    3300014: gummy_dec:Group50144_MeshPart15
+    3300016: gummy_dec:Group50144_MeshPart16
+    3300018: gummy_dec:Group50144_MeshPart17
+    3300020: gummy_dec:Group50144_MeshPart18
+    3300022: gummy_dec:Group50144_MeshPart19
+    3300024: gummy_dec:Group50144_MeshPart2
+    3300026: gummy_dec:Group50144_MeshPart20
+    3300028: gummy_dec:Group50144_MeshPart21
+    3300030: gummy_dec:Group50144_MeshPart22
+    3300032: gummy_dec:Group50144_MeshPart23
+    3300034: gummy_dec:Group50144_MeshPart24
+    3300036: gummy_dec:Group50144_MeshPart25
+    3300038: gummy_dec:Group50144_MeshPart26
+    3300040: gummy_dec:Group50144_MeshPart27
+    3300042: gummy_dec:Group50144_MeshPart28
+    3300044: gummy_dec:Group50144_MeshPart29
+    3300046: gummy_dec:Group50144_MeshPart3
+    3300048: gummy_dec:Group50144_MeshPart4
+    3300050: gummy_dec:Group50144_MeshPart5
+    3300052: gummy_dec:Group50144_MeshPart6
+    3300054: gummy_dec:Group50144_MeshPart7
+    3300056: gummy_dec:Group50144_MeshPart8
+    3300058: gummy_dec:Group50144_MeshPart9
+    4300000: gummy_dec:Group50144_MeshPart0
+    4300002: gummy_dec:Group50144_MeshPart1
+    4300004: gummy_dec:Group50144_MeshPart2
+    4300006: gummy_dec:Group50144_MeshPart3
+    4300008: gummy_dec:Group50144_MeshPart4
+    4300010: gummy_dec:Group50144_MeshPart5
+    4300012: gummy_dec:Group50144_MeshPart6
+    4300014: gummy_dec:Group50144_MeshPart7
+    4300016: gummy_dec:Group50144_MeshPart8
+    4300018: gummy_dec:Group50144_MeshPart9
+    4300020: gummy_dec:Group50144_MeshPart10
+    4300022: gummy_dec:Group50144_MeshPart11
+    4300024: gummy_dec:Group50144_MeshPart12
+    4300026: gummy_dec:Group50144_MeshPart13
+    4300028: gummy_dec:Group50144_MeshPart14
+    4300030: gummy_dec:Group50144_MeshPart15
+    4300032: gummy_dec:Group50144_MeshPart16
+    4300034: gummy_dec:Group50144_MeshPart17
+    4300036: gummy_dec:Group50144_MeshPart18
+    4300038: gummy_dec:Group50144_MeshPart19
+    4300040: gummy_dec:Group50144_MeshPart20
+    4300042: gummy_dec:Group50144_MeshPart21
+    4300044: gummy_dec:Group50144_MeshPart22
+    4300046: gummy_dec:Group50144_MeshPart23
+    4300048: gummy_dec:Group50144_MeshPart24
+    4300050: gummy_dec:Group50144_MeshPart25
+    4300052: gummy_dec:Group50144_MeshPart26
+    4300054: gummy_dec:Group50144_MeshPart27
+    4300056: gummy_dec:Group50144_MeshPart28
+    4300058: gummy_dec:Group50144_MeshPart29
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: e2586c59dde5a4aefa8cef5d56d247e7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -21,6 +180,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -45,11 +206,15 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

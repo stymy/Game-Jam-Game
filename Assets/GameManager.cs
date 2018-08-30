@@ -20,10 +20,11 @@ public class GameManager : MonoBehaviour {
 		
 	}
 
-    public void UpdateHealth()
+    public void UpdateHealth(int Dmg)
     {
+        //Updates Player Health Functions
         UIHealth Health = DmgBar.GetComponent<UIHealth>();
-        Health.PercentHealth -= 10;
+        Health.Damage(Dmg);
         if (Health.PercentHealth <= 0)
         {
             //Game Over
@@ -33,16 +34,19 @@ public class GameManager : MonoBehaviour {
 
     public void AddBerry()
     {
+        //Increments Currency
         BerryCount.GetComponent<Increment>().Count += 1;
     }
 
     public void AddGold()
     {
+        //Increments Currency
         GoldCount.GetComponent<Increment>().Count += 1;
     }
 
     public void AddSugar()
     {
+        //Increments Currency
         SugarCount.GetComponent<Increment>().Count += 1;
     }
 
