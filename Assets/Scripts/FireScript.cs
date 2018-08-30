@@ -7,7 +7,8 @@ public class FireScript : MonoBehaviour {
     [SerializeField] private GameObject Ammo;
     [SerializeField] private Transform BulletSpawn;
     [SerializeField] private Transform Player;
-    [SerializeField] private float speed = 0.01f;
+    [SerializeField] private float speed = 1f;
+    private Vector3 direction;
 
     // Use this for initialization
     void Start () {
@@ -25,11 +26,16 @@ public class FireScript : MonoBehaviour {
         {
             Fire();
         }
+
+        //if(Input.GetButton("Fire1") && Ammo.tag == "automatic")
+        //{
+        //    Fire();
+        //}
     }
 
     private void Fire()
     {
-        GameObject Bullet = Instantiate(Ammo, BulletSpawn);
+        GameObject Bullet = Instantiate(Ammo, BulletSpawn.transform.position, BulletSpawn.transform.rotation);
         Bullet.SetActive(true);
 
         Bullet.GetComponent<Rigidbody>().velocity = Player.transform.forward * speed;

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fc28ee0f3348ae54e9616a64d829452a
+guid: e704c9ce75e54c54996c167e198f3e22
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -2077,7 +2077,7 @@ ModelImporter:
     3300000: pSphere47
     4300000: pCube7
     4300002: pSphere47
-    7400000: Take 001
+    7400000: Running
     9500000: //RootNode
     11100000: //RootNode
     13700000: pCube7
@@ -2100,7 +2100,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
+    importConstraints: 1
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -2110,8 +2110,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
+      name: Running
+      takeName: Running
       firstFrame: 1
       lastFrame: 36
       wrapMode: 2
@@ -2163,10 +2163,10 @@ ModelImporter:
     previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 180
+    normalImportMode: 1
     tangentImportMode: 3
-    normalCalculationMode: 4
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

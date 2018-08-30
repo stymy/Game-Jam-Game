@@ -9,6 +9,7 @@ public class Wields : MonoBehaviour {
     public bool HasMuffinRifle = false;
     [SerializeField] private GameObject CookieGun;
     [SerializeField] private GameObject PizzaBazooka;
+    [SerializeField] private GameObject MuffinRifle;
     private GameObject CurrentWeapon;
 	// Use this for initialization
 	void Start () {
@@ -40,6 +41,17 @@ public class Wields : MonoBehaviour {
             { CurrentWeapon.SetActive(false); }
             PizzaBazooka.SetActive(true);
             CurrentWeapon = PizzaBazooka;
+        }
+    }
+
+    public void EquipMuffinRifle()
+    {
+        if (HasMuffinRifle)
+        {
+            if (CurrentWeapon)
+            { CurrentWeapon.SetActive(false); }
+            MuffinRifle.SetActive(true);
+            CurrentWeapon = MuffinRifle;
         }
     }
 }

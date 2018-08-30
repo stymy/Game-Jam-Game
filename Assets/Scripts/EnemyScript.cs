@@ -56,8 +56,7 @@ public class EnemyScript : MonoBehaviour
     private void Kill()
     {
         GetComponent<AudioSource>().Play();
-        GetComponent<Renderer>().enabled = false;
-        GetComponent<Collider>().enabled = false;
+        transform.localScale = new Vector3(0, 0, 0);
         Destroy(gameObject, 3f);
     }
 }

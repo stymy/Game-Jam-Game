@@ -27,15 +27,23 @@ public class PickupScript : MonoBehaviour {
             {
                 other.GetComponent<Wields>().HasCookieGun = true;
                 other.GetComponent<Wields>().EquipCookieGun();
-                Destroy(this.gameObject);
             }
 
             if (WeaponType == "PizzaBazooka")
             {
                 other.GetComponent<Wields>().HasPizzaBazooka = true;
                 other.GetComponent<Wields>().EquipPizzaBazooka();
-                Destroy(this.gameObject);
             }
+
+            if (WeaponType == "MuffinRifle")
+            {
+                other.GetComponent<Wields>().HasMuffinRifle = true;
+                other.GetComponent<Wields>().EquipMuffinRifle();
+            }
+
+            GetComponent<AudioSource>().Play();
+            transform.localScale = new Vector3(0, 0, 0);
+            Destroy(gameObject, 3f);
         }
 
     }
