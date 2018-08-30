@@ -13,7 +13,8 @@ public class Increment : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        Msg.text = gameObject.name + ": " + Count;
-
+		if (Count <= 99) {
+			Msg.text = Count.ToString ("D2");
+		}
     }
 }
