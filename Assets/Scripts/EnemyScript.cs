@@ -6,19 +6,24 @@ public class EnemyScript : MonoBehaviour
 {
 
     [SerializeField] private GameManager GM;
+    [SerializeField] private GameObject Target;
     [SerializeField] private int Health = 10;
     private bool CanHit = true;
+    UnityEngine.AI.NavMeshAgent nav;
 
     // Use this for initialization
     void Start()
     {
-
     }
 
+    private void Awake()
+    {
+        nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
+    }
     // Update is called once per frame
     void Update()
     {
-
+        transform.position = Vector3.MoveTowards(transform.position, Target.transform.position, 1);
     }
 
     //Collision with Player

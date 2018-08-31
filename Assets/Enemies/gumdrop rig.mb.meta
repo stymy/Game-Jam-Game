@@ -3,6 +3,73 @@ guid: d31c8b6fa2d8bc04e9da655411fdf535
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: joint1
+    100004: joint10
+    100006: joint10 1
+    100008: joint11
+    100010: joint12
+    100012: joint13
+    100014: joint2
+    100016: joint4
+    100018: joint5
+    100020: joint5 1
+    100022: joint6
+    100024: joint6 1
+    100026: joint7
+    100028: joint7 1
+    100030: joint8
+    100032: joint8 1
+    100034: joint9
+    100036: joint9 1
+    100038: nurbsCircle10
+    100040: nurbsCircle11
+    100042: nurbsCircle2
+    100044: nurbsCircle3
+    100046: nurbsCircle4
+    100048: nurbsCircle5
+    100050: nurbsCircle6
+    100052: nurbsCircle7
+    100054: nurbsCircle8
+    100056: nurbsCircle9
+    100058: pCube7
+    400000: //RootNode
+    400002: joint1
+    400004: joint10
+    400006: joint10 1
+    400008: joint11
+    400010: joint12
+    400012: joint13
+    400014: joint2
+    400016: joint4
+    400018: joint5
+    400020: joint5 1
+    400022: joint6
+    400024: joint6 1
+    400026: joint7
+    400028: joint7 1
+    400030: joint8
+    400032: joint8 1
+    400034: joint9
+    400036: joint9 1
+    400038: nurbsCircle10
+    400040: nurbsCircle11
+    400042: nurbsCircle2
+    400044: nurbsCircle3
+    400046: nurbsCircle4
+    400048: nurbsCircle5
+    400050: nurbsCircle6
+    400052: nurbsCircle7
+    400054: nurbsCircle8
+    400056: nurbsCircle9
+    400058: pCube7
+    2100000: lambert4
+    2100002: lambert5
+    2100004: eye
+    2100006: lambert3
+    4300000: pCube7
+    9500000: //RootNode
+    13700000: pCube7
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -56,7 +123,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
