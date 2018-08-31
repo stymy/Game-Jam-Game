@@ -5,8 +5,8 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
 
-    [SerializeField] private GameManager GM;
-    [SerializeField] private GameObject Target;
+    [SerializeField] public GameManager GM;
+    [SerializeField] public GameObject Target;
     [SerializeField] private int Health = 10;
     private bool CanHit = true;
     UnityEngine.AI.NavMeshAgent nav;

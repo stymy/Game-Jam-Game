@@ -8,6 +8,10 @@ public class Spawner : MonoBehaviour
     [SerializeField]
     private List<GameObject> m_enemyList = new List<GameObject>(); // Creates list of Game Objects
 
+    //Set Targets
+    [SerializeField] private GameManager GM;
+    [SerializeField] private GameObject Target;
+
     public int score;
     [SerializeField] private int activateCounter;
     [SerializeField]
@@ -91,6 +95,8 @@ public class Spawner : MonoBehaviour
 
             newPosition = new Vector3(transform.position.x + randX, transform.position.y, transform.position.z + randZ); // Position of where the enemy will / can possibly spawn.
             GameObject enemy = Instantiate(m_enemy, newPosition, Quaternion.identity) as GameObject; //Create some clones of the enemy.
+            enemy.GetComponent<EnemyScript>().Target = Target;
+            enemy.GetComponent<EnemyScript>().GM = GM;
             m_enemyList.Add(enemy); // Add enemy.
                                     //Debug.Log ("Spawned an Enemy."); // Let me know an enemy is spawned.
         }
@@ -110,6 +116,8 @@ public class Spawner : MonoBehaviour
 
             newPosition = new Vector3(m_location.transform.position.x + randX, m_location.transform.position.y, m_location.transform.position.z + randZ); // Position of where the enemy will / can possibly spawn.
             GameObject enemy = Instantiate(m_enemy, newPosition, Quaternion.identity) as GameObject; //Create some clones of the enemy.
+            enemy.GetComponent<EnemyScript>().Target = Target;
+            enemy.GetComponent<EnemyScript>().GM = GM;
             m_enemyList.Add(enemy); // Add enemy.
         }
     }
