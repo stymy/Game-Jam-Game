@@ -54,6 +54,7 @@ public class EnemyScript : MonoBehaviour
         }
     }
 
+
     IEnumerator HitTimer()
     {
         yield return new WaitForSeconds(1);

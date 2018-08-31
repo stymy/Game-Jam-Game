@@ -61,12 +61,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EnemyScript.cs" />
-    <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\Increment.cs" />
-    <Compile Include="Assets\SceneFunctions.cs" />
+    <Compile Include="Assets\Scripts\AmmoScript.cs" />
+    <Compile Include="Assets\Scripts\EnemyScript.cs" />
+    <Compile Include="Assets\Scripts\FireScript.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Increment.cs" />
+    <Compile Include="Assets\Scripts\PickupScript.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\UIHealth.cs" />
+    <Compile Include="Assets\Scripts\SceneFunctions.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
+    <Compile Include="Assets\Scripts\UIHealth.cs" />
+    <Compile Include="Assets\Scripts\Wields.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Glichess/Documents/Game Jam/Game-Jam-Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
