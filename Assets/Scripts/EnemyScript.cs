@@ -54,6 +54,15 @@ public class EnemyScript : MonoBehaviour
         }
     }
 
+    //On Collision with Pizza Mine
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "mine")
+        {
+            Kill();
+        }
+    }
+
 
     IEnumerator HitTimer()
     {

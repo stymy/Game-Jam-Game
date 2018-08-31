@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PickupScript : MonoBehaviour {
 
-    [SerializeField] Transform Wielded;
     [SerializeField] string WeaponType;
 
     // Use this for initialization
@@ -19,8 +18,6 @@ public class PickupScript : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        //this.transform.SetPositionAndRotation(Wielded.position, Wielded.rotation);
-        //this.transform.SetParent(other.transform);
         if (other.tag == "Player")
         {
             if (WeaponType == "CookieGun")

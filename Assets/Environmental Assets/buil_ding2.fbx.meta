@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: b9be51b4bdc08f845a3ade9d32296695
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Hansel:pCube47
+    100004: Hansel:pCube61
+    100006: Hansel:pCube64
+    100008: Hansel:pCube66
+    100010: Hansel:pCube67
+    100012: Hansel:pCube68
+    100014: Hansel:pCube69
+    100016: Hansel:pCube70
+    100018: Hansel:pCube71
+    100020: Hansel:pCube72
+    100022: Hansel:pCube73
+    100024: Hansel:pCube76
+    100026: Hansel:polySurface42
+    100028: Hansel:polySurface43
+    100030: Hansel:polySurface44
+    100032: Hansel:polySurface45
+    100034: Hansel:polySurface46
+    100036: Hansel:polySurface46 1
+    100038: Hansel:polySurface78
+    100040: Hansel:polySurface79
+    100042: Hansel:polySurface80
+    100044: Hansel:polySurface80 1
+    100046: Hansel:polySurface81
+    100048: Hansel:polySurface82
+    100050: Hansel:polySurface83
+    100052: Hansel:polySurface84
+    100054: Hansel:polySurface85
+    100056: Hansel:polySurface86
+    100058: Hansel:polySurface87
+    100060: Hansel:polySurface88
+    100062: Hansel:polySurface89
+    100064: Hansel:polySurface90
+    100066: Hansel:polySurface90 1
+    100068: Hansel:pPlane6
+    100070: Hansel:pPlane7
+    100072: Hansel:transform105
+    100074: Hansel:transform106
+    100076: Hansel:transform107
+    100078: Hansel:transform108
+    100080: Hansel:transform109
+    100082: Hansel:transform143
+    100084: Hansel:transform144
+    100086: Hansel:transform145
+    100088: Hansel:transform146
+    100090: Hansel:transform147
+    100092: Hansel:transform148
+    100094: Hansel:transform149
+    100096: Hansel:transform150
+    100098: Hansel:transform151
+    100100: Hansel:transform152
+    100102: Hansel:transform153
+    100104: Hansel:transform154
+    100106: Hansel:transform155
+    100108: Hansel:transform156
+    100110: Hansel:transform157
+    100112: Hansel:transform158
+    100114: Hansel:transform159
+    100116: Hansel:transform160
+    100118: Hansel:transform161
+    100120: Hansel:transform162
+    100122: Hansel:transform163
+    100124: Hansel:transform164
+    100126: Hansel:transform165
+    100128: Hansel:transform383
+    100130: Hansel:transform384
+    100132: Hansel:transform385
+    100134: Hansel:transform386
+    100136: Hansel:transform387
+    100138: Hansel:transform388
+    100140: Hansel:transform389
+    100142: Hansel:transform390
+    100144: Hansel:transform391
+    100146: Hansel:transform392
+    100148: Hansel:transform393
+    100150: Hansel:transform394
+    100152: Hansel:transform395
+    100154: Hansel:transform396
+    100156: Hansel:transform59
+    100158: polySurface306
+    100160: polySurface307
+    100162: polySurface308
+    100164: polySurface309
+    100166: polySurface310
+    100168: polySurface311
+    100170: polySurface312
+    100172: polySurface313
+    100174: polySurface314
+    100176: polySurface315
+    100178: polySurface316
+    100180: polySurface317
+    100182: transform3
+    100184: transform4
+    400000: //RootNode
+    400002: Hansel:pCube47
+    400004: Hansel:pCube61
+    400006: Hansel:pCube64
+    400008: Hansel:pCube66
+    400010: Hansel:pCube67
+    400012: Hansel:pCube68
+    400014: Hansel:pCube69
+    400016: Hansel:pCube70
+    400018: Hansel:pCube71
+    400020: Hansel:pCube72
+    400022: Hansel:pCube73
+    400024: Hansel:pCube76
+    400026: Hansel:polySurface42
+    400028: Hansel:polySurface43
+    400030: Hansel:polySurface44
+    400032: Hansel:polySurface45
+    400034: Hansel:polySurface46
+    400036: Hansel:polySurface46 1
+    400038: Hansel:polySurface78
+    400040: Hansel:polySurface79
+    400042: Hansel:polySurface80
+    400044: Hansel:polySurface80 1
+    400046: Hansel:polySurface81
+    400048: Hansel:polySurface82
+    400050: Hansel:polySurface83
+    400052: Hansel:polySurface84
+    400054: Hansel:polySurface85
+    400056: Hansel:polySurface86
+    400058: Hansel:polySurface87
+    400060: Hansel:polySurface88
+    400062: Hansel:polySurface89
+    400064: Hansel:polySurface90
+    400066: Hansel:polySurface90 1
+    400068: Hansel:pPlane6
+    400070: Hansel:pPlane7
+    400072: Hansel:transform105
+    400074: Hansel:transform106
+    400076: Hansel:transform107
+    400078: Hansel:transform108
+    400080: Hansel:transform109
+    400082: Hansel:transform143
+    400084: Hansel:transform144
+    400086: Hansel:transform145
+    400088: Hansel:transform146
+    400090: Hansel:transform147
+    400092: Hansel:transform148
+    400094: Hansel:transform149
+    400096: Hansel:transform150
+    400098: Hansel:transform151
+    400100: Hansel:transform152
+    400102: Hansel:transform153
+    400104: Hansel:transform154
+    400106: Hansel:transform155
+    400108: Hansel:transform156
+    400110: Hansel:transform157
+    400112: Hansel:transform158
+    400114: Hansel:transform159
+    400116: Hansel:transform160
+    400118: Hansel:transform161
+    400120: Hansel:transform162
+    400122: Hansel:transform163
+    400124: Hansel:transform164
+    400126: Hansel:transform165
+    400128: Hansel:transform383
+    400130: Hansel:transform384
+    400132: Hansel:transform385
+    400134: Hansel:transform386
+    400136: Hansel:transform387
+    400138: Hansel:transform388
+    400140: Hansel:transform389
+    400142: Hansel:transform390
+    400144: Hansel:transform391
+    400146: Hansel:transform392
+    400148: Hansel:transform393
+    400150: Hansel:transform394
+    400152: Hansel:transform395
+    400154: Hansel:transform396
+    400156: Hansel:transform59
+    400158: polySurface306
+    400160: polySurface307
+    400162: polySurface308
+    400164: polySurface309
+    400166: polySurface310
+    400168: polySurface311
+    400170: polySurface312
+    400172: polySurface313
+    400174: polySurface314
+    400176: polySurface315
+    400178: polySurface316
+    400180: polySurface317
+    400182: transform3
+    400184: transform4
+    2100000: lambert19
+    2100002: lambert18
+    2100004: lambert4
+    2100006: lambert11
+    2300000: Hansel:pCube76
+    3300000: Hansel:pCube76
+    4300000: Hansel:pCube76
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

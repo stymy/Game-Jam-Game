@@ -15,6 +15,7 @@ public class Wields : MonoBehaviour {
 	void Start () {
         CookieGun.SetActive(false);
         PizzaBazooka.SetActive(false);
+        MuffinRifle.SetActive(false);
     }
 	
 	// Update is called once per frame
