@@ -19,12 +19,14 @@ public class EnemyScript : MonoBehaviour
     private void Awake()
     {
         nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
+
     }
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, Target.transform.position, 1);
+        nav.destination = Target.transform.position;
     }
+
 
     //Collision with Player
     private void OnTriggerStay(Collider other)
